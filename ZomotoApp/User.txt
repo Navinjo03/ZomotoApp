@@ -1,0 +1,38 @@
+package com.Zomoto;
+
+public class User {
+    private String name;
+    private String address;
+    private long mobilenumber;
+
+    public User(String name, String address, long mobilenumber){
+        this.name = name;
+        this.address = address;
+        this.mobilenumber = mobilenumber;
+    }
+
+    public String getName() {
+        return name;
+    }
+     
+    public String getAddress() {
+        return address;
+    }
+
+    public long getMobilenumber() {
+        return mobilenumber; 
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+     public void setMobilenumber(long mobilenumber) {
+        this.mobilenumber = mobilenumber;
+    }
+
+    
